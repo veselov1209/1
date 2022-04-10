@@ -1,25 +1,55 @@
-/*атрибут class является глобальным и его можно задать для каждого элемента
-созданный класс стилей можно использовать для любого колличества элементов*/
-
-.paragraph {
-    background-color: yellow;
-    font-weight: bold;
+.cardContainer {
+    /*border: 2px solid blue; одно и то же, что следующие 3 строки*/
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
 }
 
-p {
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.big_paragraph {
-    font-size: 22px;
-}
-
-.text_to_uppercase {
-    text-transform: uppercase;
-}
-
-.img_class {
+.photoContainer {
+   
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-image: url(https://photographers.ua/thumbnails/pictures/27163/800ximg_7893-lj.jpg);width: 200px;
     height: 200px;
-    width: 300px;
+    background-size: cover; /*заполнение изображением контейнера*/
+    background-repeat: no-repeat; /*не дублировать изображение*/
+    background-position: center; /*отцентрировать изображение*/
+    box-sizing: border-box; /*пересчет отступов и полей для контейнера*/
+}
+
+.infoContainer {
+    border: 1px solid gray;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    /*размещение текста*/
+    text-align: center;
+}
+
+.userJob {
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+
+.bottonStyle {
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+li {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px;
 }
