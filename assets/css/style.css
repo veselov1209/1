@@ -1,0 +1,13 @@
+p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: wider;
+    color: rgba(0,0, 255, 0.5);
+    background-color: yellow;
+    text-transform: uppercase; /*uppercase - верхний регистр, lowercase - нижний регистр*/
+    letter-spacing: 5px; /*расстояние между буквами*/
+    word-spacing: 10px; /*расстояние между словами*/
+    opacity: 0.5; /*прозрачность*/
+}
