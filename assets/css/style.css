@@ -1,23 +1,9 @@
-.nav{
-    list-style-type: none;
+.header_style{
     font-size: 20px;
-
-    
+    text-transform: uppercase;
+    color: red;
 }
 
-li{
-    width: 200px;
-    height: 30px;
-    border: 2px solid cornflowerblue;
-    display: inline-block;
+#idheader2{
+    border: 2px solid green;
 }
-p{
-    color: yellow;
-}
-
-div.class3 p{
-    color: blue;
-}
-
-
-
