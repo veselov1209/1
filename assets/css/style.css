@@ -1,24 +1,23 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+.nav{
+    list-style-type: none;
+    font-size: 20px;
 
-
-img{
-    display: block;
-}
-
-.colorDiv{
-    background-color: rgb(108, 126, 228);
-    height: 100px;
-    width: 200px;
-    border: 1px solid red;
-    display: inline-block;
     
 }
 
-.pic{
-    height: 500px;
-    width: 500px;
-    margin: auto;
+li{
+    width: 200px;
+    height: 30px;
+    border: 2px solid cornflowerblue;
+    display: inline-block;
 }
+p{
+    color: yellow;
+}
+
+div.class3 p{
+    color: blue;
+}
+
+
+
