@@ -1,55 +1,24 @@
-.cardContainer {
-    /*border: 2px solid blue; одно и то же, что следующие 3 строки*/
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: blue;
-    border-style: solid;
-    width: 400px;
-    height: 600px;
-    box-sizing: border-box;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.photoContainer {
-   
-    border: 1px solid gray;
-    border-radius: 100px;
-    background-image: url(https://photographers.ua/thumbnails/pictures/27163/800ximg_7893-lj.jpg);width: 200px;
-    height: 200px;
-    background-size: cover; /*заполнение изображением контейнера*/
-    background-repeat: no-repeat; /*не дублировать изображение*/
-    background-position: center; /*отцентрировать изображение*/
-    box-sizing: border-box; /*пересчет отступов и полей для контейнера*/
+
+img{
+    display: block;
 }
 
-.infoContainer {
-    border: 1px solid gray;
-}
-
-.userName {
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-    /*размещение текста*/
-    text-align: center;
-}
-
-.userJob {
-    font-weight: bold;
-    font-size: 18px;
-    color: grey;
-}
-
-.bottonStyle {
-    border: 1px solid black;
-    width: 120px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: cornflowerblue;
-    text-align: center;
-}
-
-li {
+.colorDiv{
+    background-color: rgb(108, 126, 228);
+    height: 100px;
+    width: 200px;
     border: 1px solid red;
-    margin: 20px;
-    padding: 10px;
+    display: inline-block;
+    
+}
+
+.pic{
+    height: 500px;
+    width: 500px;
+    margin: auto;
 }
