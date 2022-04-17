@@ -1,0 +1,13 @@
+.card {
+    border: 1px solid blue;
+    background-color: #5c92c2;
+    width: 400px;
+    height: 600px;
+}
+
+.up {
+    border: 1px solid #c7653f;
+    background-color: #c7653f;
+    width: 380px;
+    height: 250px;
+}
